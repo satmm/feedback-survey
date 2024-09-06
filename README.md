@@ -1,76 +1,58 @@
-# Getting Started with Create React App
+# Customer Feedback Survey
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+This project is a customer feedback survey application designed to collect and manage customer feedback efficiently. It includes a welcome screen, a series of survey questions, and a thank-you screen. The application ensures a smooth user experience with features like navigation between questions, skipping questions, and saving responses.
 
-In the project directory, you can run:
+## Tech Stack
 
-### `npm start`
+### Frontend
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React**: A JavaScript library for building user interfaces. Used to create a dynamic and responsive UI for the survey application.
+- **CSS**: For styling the application. Includes custom CSS to ensure a visually appealing and user-friendly interface.
+- **React Icons**: Provides icons for navigation and other UI elements.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Backend
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- **Local Storage**: Used for storing survey responses and session information. Ensures that user data is saved even if the page is refreshed or revisited later.
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- **Vercel**: The application is deployed on Vercel, which provides a seamless platform for deploying frontend projects. The deployment URL is [https://feedback-survey-rust.vercel.app/](https://feedback-survey-rust.vercel.app/).
 
-### `npm run build` fails to minify
+## Features
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-"# feedback-survey" 
-"# feedback-survey" 
-<<<<<<< HEAD
-"# feedback-survey" 
-=======
->>>>>>> 921c7f10071814bac1699f024942c9c9baefa1e3
+- **Welcome Screen**: Greets the user with a welcome message and a button to start the survey.
+- **Survey Navigation**: Users can navigate through survey questions, go back to previous questions, and skip questions if needed.
+- **Answer Storage**: Survey answers are saved in local storage with a unique session ID.
+- **Completion and Thank You Screen**: After completing the survey, users receive a thank-you message and are redirected back to the welcome screen after 5 seconds.
+
+## Installation
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/your-username/feedback-survey.git
+   cd feedback-survey
+   ```
+
+2. **Install Dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Start the Development Server**:
+   ```bash
+   npm start
+   ```
+   This will start the React development server and open the application in your default browser.
+
+## Usage
+
+1. **Start Survey**: Click the "Start Survey" button on the welcome screen to begin the survey.
+2. **Answer Questions**: Provide responses to the survey questions. You can navigate between questions, go back, or skip questions.
+3. **Submit Survey**: After answering all questions, submit the survey to see the thank-you screen.
+
+## Deployment
+
+The application is deployed on Vercel. You can access the live version of the app [here](https://feedback-survey-rust.vercel.app/).
+
