@@ -12,10 +12,6 @@ This project is a customer feedback survey application designed to collect and m
 - **CSS**: For styling the application. Includes custom CSS to ensure a visually appealing and user-friendly interface.
 - **React Icons**: Provides icons for navigation and other UI elements.
 
-### Backend
-
-- **Local Storage**: Used for storing survey responses and session information. Ensures that user data is saved even if the page is refreshed or revisited later.
-
 ### Deployment
 
 - **Vercel**: The application is deployed on Vercel, which provides a seamless platform for deploying frontend projects. The deployment URL is [https://feedback-survey-rust.vercel.app/](https://feedback-survey-rust.vercel.app/).
