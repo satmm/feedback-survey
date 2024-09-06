@@ -70,4 +70,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 "# feedback-survey" 
 "# feedback-survey" 
+<<<<<<< HEAD
 "# feedback-survey" 
+=======
+>>>>>>> 921c7f10071814bac1699f024942c9c9baefa1e3
